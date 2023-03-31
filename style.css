@@ -1,0 +1,17 @@
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div#card-item {
+    width: 18% !important;
+    margin: 5px;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+    color: var(--bs-card-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
